@@ -15,21 +15,25 @@ header{
     content: "";
     display: table;
     clear: both;
+    
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 150px 0 150px 0;
 }
 .menu{
-    width: 100%;
-    height: 50px;
+    width: 80%;
+    height: 100%;
     font-size: 15px;
     color: white;
     position: relative;
     font-weight: 500;
+    margin: 0 auto;
+    padding-top: 20px;
+    
 }
 .menu div{
     float: left;
@@ -59,7 +63,7 @@ header{
 }
 .login{
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 0%;
     font-size: 12px;
 }
@@ -74,7 +78,7 @@ header{
     color: white;
     margin-top: 100px;
 }
-.text{
+.text-jumbo{
     font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
@@ -107,3 +111,33 @@ p{
     color: white;
 }
 /* main */
+.things-to-do div{
+    float: left;
+}
+.things-to-do{
+    height: 80vh;
+}
+.img-side{
+    width: 70%;
+}
+.img-side .right-side{
+    position: relative;
+    left: 20%
+}
+.side{
+    width: 30%;
+}
+h2{
+    font-size:45px ;
+    padding-top: 20px;
+}
+.p-side{
+    text-align: left;
+    font-weight: 400;
+    margin-top:30px ;
+}
+
+
+.grey{
+    background-color: #f6f6f6;
+}
