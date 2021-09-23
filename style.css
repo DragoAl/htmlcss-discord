@@ -7,7 +7,7 @@ body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 header{
-    height: 70vh;
+    height: 500px;
     background-image: url(img/jumbo.png);
     background-size: cover;
 }
@@ -25,6 +25,7 @@ header{
 }
 .menu{
     width: 100%;
+    height: 50px;
     font-size: 15px;
     color: white;
     position: relative;
@@ -40,6 +41,7 @@ header{
     width: 60%;
     text-align: center;
 }
+
 .navigation-list li, a{
     text-decoration: none;
     color: white;
@@ -49,14 +51,19 @@ header{
 }
 .button{
     background-color: white;
-    padding: 8px;
-    border-radius: 15px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
     color: black;
+    font-weight: 500;
+    
+}
+.login{
     position: absolute;
     top: 0;
     right: 0%;
     font-size: 12px;
 }
+
 /* jumbotron */
 #jumbotron{
     height: 50%;
@@ -71,6 +78,32 @@ header{
     font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
-
-
 }
+p{
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align:center ;
+}
+/* .buttons{
+    width: 80%;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
+
+} */
+.download{
+    margin-left: 20%;
+}
+.download-arrow{
+    height: 17px;
+    margin-right: 4px;
+}
+
+.open{
+    margin-left: 5%;
+    background-color: #23272a;
+    color: white;
+}
+/* main */
