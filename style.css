@@ -111,12 +111,11 @@ p{
     color: white;
 }
 /* main */
-.things-to-do div{
+.things-to-do ,.img-side ,.side{
     float: left;
 }
-.things-to-do{
-    height: 80vh;
-}
+
+
 .img-side{
     width: 70%;
 }
@@ -141,3 +140,31 @@ h2{
 .grey{
     background-color: #f6f6f6;
 }
+.last-section{
+    text-align: center;
+}
+#p-last-section{
+    font-weight: 400;
+    margin-top:30px
+}
+.img-last-section{
+    position: relative;
+    left: 10%;
+}
+#ready{
+    width: 50%;
+    background-image: url(img/stars.svg);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+}
+#bottom-login{
+    position: relative;
+    left: 25%;
+    background-color: #8ea1e1;
+    color: white;
+    margin-top: 30px;
+}
+
